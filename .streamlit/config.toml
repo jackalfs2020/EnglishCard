@@ -1,0 +1,16 @@
+[client]
+toolbarMode = "viewer"  # 隐藏右上角菜单，只留给开发者看
+showErrorDetails = false # 隐藏报错细节，更像原生App
+
+[theme]
+base = "dark"           # ⚠️ 强制深色模式，防止样式崩坏
+primaryColor = "#00f3ff" # 霓虹蓝
+backgroundColor = "#050505"
+secondaryBackgroundColor = "#111111"
+textColor = "#ffffff"
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = false
+fileWatcherType = "none" # 生产环境优化
